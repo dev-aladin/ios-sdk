@@ -1,0 +1,6 @@
+framework module Pods_Aladin_Tests {
+  umbrella header "Pods-Aladin_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Aladin_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y3L-kz-GCX">
+                                <rect key="frame" x="82" y="423" width="250" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="90d-Iu-zd1"/>
+                                    <constraint firstAttribute="width" constant="250" id="hjH-hF-Hg0"/>
+                                </constraints>
+                                <state key="normal" title="Sign In with Aladin">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="signIn" destination="vXZ-lx-hvc" eventType="touchUpInside" id="ukG-2W-XhB"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Powered by Aladin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrp-AX-M3m">
+                                <rect key="frame" x="119.5" y="520" width="175" height="24"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47Y-au-RuJ">
+                                <rect key="frame" x="82" y="780" width="250" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="PfD-sa-e0w"/>
+                                    <constraint firstAttribute="width" constant="250" id="Qvx-Qk-D8l"/>
+                                </constraints>
+                                <state key="normal" title="Reset Device Keychain">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetDeviceKeychain:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="YEC-Kg-qoQ"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pEX-xl-N8K">
+                                <rect key="frame" x="16" y="64" width="382" height="798"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Mpl-Ht-ACI">
+                                        <rect key="frame" x="0.0" y="0.0" width="382" height="390"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--------" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CJE-Pd-RdB">
+                                                <rect key="frame" x="0.0" y="0.0" width="382" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="40" id="jXo-5P-Ku7"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZYF-Sd-cpA">
+                                                <rect key="frame" x="0.0" y="60" width="382" height="50"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="bHx-L6-40f"/>
+                                                </constraints>
+                                                <state key="normal" title="Put File">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="putFileTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Tbi-Q5-cqF"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3BJ-ch-gWF">
+                                                <rect key="frame" x="0.0" y="130" width="382" height="50"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="gEI-x6-rBz"/>
+                                                </constraints>
+                                                <state key="normal" title="Get File">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="getFileTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="FC0-FM-JKK"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YmW-Lr-2mG">
+                                                <rect key="frame" x="0.0" y="200" width="382" height="50"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="qcY-mV-ini"/>
+                                                </constraints>
+                                                <state key="normal" title="Delete File">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="deleteFile:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="XaS-0W-1rh"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n7M-hE-FY7" userLabel="List Files">
+                                                <rect key="frame" x="0.0" y="270" width="382" height="50"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="byo-55-bcR"/>
+                                                </constraints>
+                                                <state key="normal" title="List Files">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="listFiles:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="b3u-Af-4Z0"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1eN-B6-qel">
+                                                <rect key="frame" x="0.0" y="340" width="382" height="50"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="wUx-10-6PS"/>
+                                                </constraints>
+                                                <state key="normal" title="Sign Out">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="signOut:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="h2X-2s-eZ0"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Mpl-Ht-ACI" firstAttribute="leading" secondItem="pEX-xl-N8K" secondAttribute="leading" id="8td-KM-ubt"/>
+                                    <constraint firstAttribute="trailing" secondItem="Mpl-Ht-ACI" secondAttribute="trailing" id="Fav-qC-BQ6"/>
+                                    <constraint firstItem="Mpl-Ht-ACI" firstAttribute="width" secondItem="pEX-xl-N8K" secondAttribute="width" id="q4R-uA-6LU"/>
+                                    <constraint firstItem="Mpl-Ht-ACI" firstAttribute="top" secondItem="pEX-xl-N8K" secondAttribute="top" id="r75-ah-Kfc"/>
+                                    <constraint firstAttribute="bottom" secondItem="Mpl-Ht-ACI" secondAttribute="bottom" id="tGt-VB-xPL"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mrp-AX-M3m" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="1l3-w3-2Jv"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="47Y-au-RuJ" secondAttribute="bottom" constant="32" id="1oS-Mw-CVe"/>
+                            <constraint firstItem="pEX-xl-N8K" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="3bf-lk-1P4"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="pEX-xl-N8K" secondAttribute="bottom" id="Iwe-qd-6dl"/>
+                            <constraint firstItem="pEX-xl-N8K" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="20" id="Oom-y2-njM"/>
+                            <constraint firstItem="pEX-xl-N8K" firstAttribute="width" secondItem="kh9-bI-dsS" secondAttribute="width" constant="-32" id="Xys-iL-tNI"/>
+                            <constraint firstItem="Y3L-kz-GCX" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="ZEM-j7-yuY"/>
+                            <constraint firstItem="mrp-AX-M3m" firstAttribute="top" secondItem="Y3L-kz-GCX" secondAttribute="bottom" constant="47" id="bz8-KP-fct"/>
+                            <constraint firstItem="Y3L-kz-GCX" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="dsO-Cl-91h"/>
+                            <constraint firstItem="47Y-au-RuJ" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="qc1-R5-5YI"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="CJE-Pd-RdB" id="NoJ-Kn-VOx"/>
+                        <outlet property="optionsContainerView" destination="pEX-xl-N8K" id="SUd-it-bwI"/>
+                        <outlet property="poweredLabel" destination="mrp-AX-M3m" id="1aG-X2-Jth"/>
+                        <outlet property="resetKeychainButton" destination="47Y-au-RuJ" id="Rsw-ak-sAp"/>
+                        <outlet property="signInButton" destination="Y3L-kz-GCX" id="ino-R6-Kp8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="77.599999999999994" y="32.833583208395808"/>
+        </scene>
+    </scenes>
+</document>

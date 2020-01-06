@@ -1,0 +1,59 @@
+PODS:
+  - Aladin (1.0.2):
+    - CryptoSwift (= 0.15.0)
+    - PromisesSwift
+    - STRegex
+  - CryptoSwift (0.15.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - Nimble (7.3.4)
+  - Nimble-Snapshots (6.3.0):
+    - Nimble-Snapshots/Core (= 6.3.0)
+  - Nimble-Snapshots/Core (6.3.0):
+    - FBSnapshotTestCase (~> 2.0)
+    - Nimble (~> 7.0)
+  - PromisesObjC (1.2.8)
+  - PromisesSwift (1.2.8):
+    - PromisesObjC (= 1.2.8)
+  - Quick (1.2.0)
+  - STRegex (2.1.0)
+
+DEPENDENCIES:
+  - Aladin (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+  - Nimble (~> 7.0)
+  - Nimble-Snapshots (~> 6.3.0)
+  - Quick (~> 1.2.0)
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+    - FBSnapshotTestCase
+    - Nimble
+    - Nimble-Snapshots
+    - PromisesObjC
+    - PromisesSwift
+    - Quick
+    - STRegex
+
+EXTERNAL SOURCES:
+  Aladin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Aladin: d9ae0073211ebc7a934f1db9c7f20ad2ebc72b4a
+  CryptoSwift: 769f58a9e89f64e8796c2e59ce5f002dc81a2438
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Nimble-Snapshots: f5459b5b091678dc942d03ec4741cacb58ba4a52
+  PromisesObjC: c119f3cd559f50b7ae681fa59dc1acd19173b7e6
+  PromisesSwift: 37bad6f4daddb02f7c9c531efe91e8b21c13ee2f
+  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  STRegex: dfa420d93d8c1402956233b3879ec1fc14b45fbe
+
+PODFILE CHECKSUM: 0fb9d2705f9f964da772d24e99dd023a91ed49b5
+
+COCOAPODS: 1.8.4

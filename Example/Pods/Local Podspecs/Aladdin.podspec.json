@@ -1,0 +1,41 @@
+{
+  "name": "Aladdin",
+  "version": "1.0",
+  "summary": "A short description of Aladdin.",
+  "swift_versions": "5.1",
+  "description": "Aladdin WebAPI",
+  "homepage": "https://github.com/lokeshdudhat/Aladdin",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lokesh Dudhat": "dudhat.lokesh@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/lokeshdudhat/Aladdin.git",
+    "tag": "1.0"
+  },
+  "social_media_url": "https://twitter.com/lokeshdudhat",
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "Aladdin/Classes/**/*",
+  "resource_bundles": {
+    "Aladdin": [
+      "Aladdin/Javascript/*.js"
+    ]
+  },
+  "dependencies": {
+    "CryptoSwift": [
+      "0.15.0"
+    ],
+    "PromisesSwift": [
+
+    ],
+    "STRegex": [
+
+    ]
+  },
+  "swift_version": "5.1"
+}

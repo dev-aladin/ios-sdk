@@ -1,0 +1,40 @@
+{
+  "name": "Aladin",
+  "version": "1.0.2",
+  "summary": "A short description of Aladin.",
+  "swift_versions": "5.1",
+  "description": "Aladin WebAPI",
+  "homepage": "https://github.com/ALADINIO/ios-sdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Aladin": ""
+  },
+  "source": {
+    "git": "https://github.com/ALADINIO/ios-sdk.git",
+    "tag": "1.0.2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "Aladin/Classes/**/*",
+  "resource_bundles": {
+    "Aladin": [
+      "Aladin/Javascript/*.js"
+    ]
+  },
+  "dependencies": {
+    "CryptoSwift": [
+      "0.15.0"
+    ],
+    "PromisesSwift": [
+
+    ],
+    "STRegex": [
+
+    ]
+  },
+  "swift_version": "5.1"
+}

@@ -1,0 +1,6 @@
+framework module Aladin {
+  umbrella header "Aladin-umbrella.h"
+
+  export *
+  module * { export * }
+}
