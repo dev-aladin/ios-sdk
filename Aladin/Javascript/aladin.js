@@ -23950,7 +23950,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 var ALADIN_HANDLER = exports.ALADIN_HANDLER = 'aladin';
 var ALADIN_STORAGE_LABEL = exports.ALADIN_STORAGE_LABEL = 'aladin';
-var DEFAULT_ALADIN_HOST = exports.DEFAULT_ALADIN_HOST = '';
+var DEFAULT_ALADIN_HOST = exports.DEFAULT_ALADIN_HOST = 'http://staging.aladinnetwork.org/auth';
 var DEFAULT_SCOPE = exports.DEFAULT_SCOPE = ['store_write'];
 var ALADIN_APP_PRIVATE_KEY_LABEL = exports.ALADIN_APP_PRIVATE_KEY_LABEL = 'aladin-transit-private-key';
 var ALADIN_DEFAULT_GAIA_HUB_URL = exports.ALADIN_DEFAULT_GAIA_HUB_URL = 'https://todo-dapp.s3.ap-south-1.amazonaws.com';

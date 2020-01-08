@@ -8,9 +8,9 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Aladin'
-  s.version          = '1.0.2'
+  s.version          = '1.0.4'
   s.summary          = 'A short description of Aladin.'
-  s.swift_version    = '5.1'
+  s.swift_version    = '4.2'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

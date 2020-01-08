@@ -205,7 +205,7 @@ class ViewController: UIViewController {
                 self.optionsContainerView.isHidden = true
                 self.signInButton.isHidden = false
                 self.poweredLabel.isHidden = false
-                self.resetKeychainButton.isHidden = false
+                self.resetKeychainButton.isHidden = true
             }
         }
     }
